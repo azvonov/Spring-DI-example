@@ -21,7 +21,7 @@ public class CDPlayerTest {
     public final SystemOutRule log = new SystemOutRule().enableLog();
 
     @Autowired
-    @Qualifier("sgtPepper")
+    @Qualifier("sgt")
     private CompactDisc cd;
 
     @Autowired
