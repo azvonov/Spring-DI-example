@@ -1,7 +1,10 @@
 package root.soundsystem;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
+@Component
 public class BlankDisc implements CompactDisc {
     private String title;
     private String artist;
